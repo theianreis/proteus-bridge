@@ -1,0 +1,43 @@
+# ---------- Python (uv) ----------
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ---------- C++ / CMake / Visual Studio ----------
+dll/build-*/
+.vs/
+*.user
+*.suo
+*.obj
+*.o
+*.pdb
+*.ilk
+*.exp
+*.idb
+*.tlog
+
+# Binários gerados (se precisar distribuir, use release, não o repositório)
+*.dll
+*.lib
+*.exe
+
+# ---------- Proteus (arquivos auxiliares; confira depois da 1ª simulação) ----------
+Project Backups/
+Last Loaded*
+*.workspace
+
+# ---------- Dados e logs ----------
+data/
+*.csv
+*.log
+
+# ---------- Editor / sistema ----------
+.vscode/
+Thumbs.db
+.DS_Store
+
+# ---------- texto e README.md ----------
+/README.md
+/commit.md
